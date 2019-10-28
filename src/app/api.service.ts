@@ -6,8 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  // baseUrl = 'https://escavoxwebapi.azurewebsites.net/api/IoT/1.0/UpdateDeviceTwin'; 
-  baseUrl = 'https://jsonplaceholder.typicode.com';
+  baseUrl = 'https://escavoxwebapi.azurewebsites.net/api/IoT/1.0/UpdateDeviceTwin'; 
+  // baseUrl = 'https://jsonplaceholder.typicode.com';
 
 
   constructor(private http: HttpClient) { }
